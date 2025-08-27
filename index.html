@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asma Kawser Maisha's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="buttons">
+      <button id="toggle-theme">Light Mode</button>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="projects.html">Project Details</a></li>
+        <li><a href="#workExperience">Work Experience</a></li>
+        <li><a href="#technicalSkills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="images/Asma_Kawser_Maisha_Resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </nav>    
+  </header>
+
+  <main class="portfolio-container">
+    <section id="about" class="about">
+      <div>
+        <h1>Hello! I'm Asma Kawser Maisha 🌸</h1>
+        <p>I’m a tech enthusiast with a passion for coding, testing, and making sense of data. I’ve built projects 
+          using Python, Java, SQL, JavaScript, and tested applications using Selenium and Cypress.</p>
+        <p>I’m all about learning new tools, solving tricky problems, and creating software that matters. I’m 
+          looking for a role where I can grow as a developer🛠️, data analyst📈, or QA professional 🐞, 
+          contribute to real projects, and keep improving my skills.</p>
+        <p>🐱 <a href="https://github.com/asmakm">GitHub</a> |  
+          🔗 <a href="https://www.linkedin.com/in/asma-kawser-maisha-76136214a/">LinkedIn</a>    |    
+          📍 Toronto, ON</p>
+      </div>
+      <img src="images/profile.jpeg" alt="Asma Kawser Maisha" class="profile-pic" />     
+    </section>
+
+    <section id="education">
+      <h2>Education & Certifications</h2>
+      <ul>
+        <li>🎓 Bachelor's in Computer Engineering – Toronto Metropolitan University (Jun 2022)</li>
+        <li>📝 IBM Data Analyst Professional Certificate (Expected 2025)</li>
+        <li>📝 Microsoft Azure AI Fundamentals (Jul 2025)</li>
+        <li>📝 Junior Data Analyst Program – NPower Canada (Jun 2025 – Sep 2025)</li>
+        <li>📝 Career Essentials in Software Development by Microsoft (Oct 2024)</li>
+      </ul>
+    </section>
+   
+
+    <section id="technicalSkills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Operating Systems: Windows 10, Linux</li>
+        <li>SQL, Python, Java, C++, MATLAB, JavaScript, Shell Scripting</li>
+        <li>Agile, Waterfall, Scrum, Kanban, Trello, SDLC</li>
+        <li>Microsoft Excel, Azure Sandbox, Google Workspace, RDBMS, IBM Cognos Analytics, SQLite</li>
+        <li>JUnit, Selenium, Cypress, Cucumber, BDD</li>
+        <li>Version Control, Docker, Jenkins, CI/CD, JSON, XML</li>
+        <li>Modular Design, OOP, Hardware-Software Integration</li>
+        <li>Regression, ML Pipelines, Jupyter, Pandas, NumPy, Scikit-learn, GCP</li>
+      </ul>
+    </section>
+
+    <section id="softSkills">
+      <h2>Soft Skills</h2>
+      <ul>
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Problem Solving</li>
+        <li>Time Management</li>
+        <li>Adaptability</li>
+      </ul>
+    </section>
+
+    <section id="workExperience">
+      <h2>Work Experience</h2>
+      <article>
+        <div class="work-exp-box">
+          <div class="work-exp-box-left">
+            <img src="images/qac_logo.jpeg" alt="QA Consultants Logo" class="company-logo" />
+            <h3>QA Consultants</h3>
+          </div>
+          <div class="work-exp-box-right">
+            <h3>Software Development Engineer in Test</h3>
+            <strong>Mar 2023 - Jun 2023</strong>
+            <ul>
+              <li>Designed and implemented a scalable BDD-based test automation framework using Java, Selenium, 
+                Cucumber, Maven, and JUnit, reducing manual testing effort by ~50%.</li>
+              <li>Developed and maintained 15+ automated test cases to validate critical application workflows 
+                across 3+ browser environments, ensuring functional and regression coverage.</li>
+              <li>Built 10+ modular Page Object Model (POM) components, improving maintainability, reducing code 
+                duplication, and accelerating updates.</li>
+              <li>Created and executed REST API tests in Postman to validate endpoint functionality, error handling, 
+                and performance, enhancing API reliability.</li>
+              <li>Integrated automation suites into Jenkins CI/CD pipelines, achieving 100% reproducibility across 
+                environments and enabling automated regression runs.</li>
+              <li>Utilized Docker to containerize the automation framework, ensuring consistent execution across 
+                development, staging, and CI environments.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <div> 
+          <h3>Machine Learning for Performance Prediction of Spark Cloud Application</h3> 
+          <h4>Toronto Metropolitan University (Sep 2021 - Apr 2022)</h4>
+          <p>This project focuses on predicting the execution time of Apache Spark applications 
+            running on cloud platforms using various supervised Machine Learning models. More 
+            specifically, a set of features are extracted from target Spark applications and 
+            a platform configuration, then, the purpose is to design models that produce accurate 
+            estimations of execution time.</p>
+            <a href="projects.html#ml-spark">View Project Details</a>
+            <a href= "https://github.com/AsmaKM/Machine-Learning-for-performance-prediction-of-Spark-Cloud-Application">View on GitHub</a>
+        </div>
+        <img src="images/qac_logo.jpeg" alt="Machine Learning Project" class="project-img" />
+
+      </article>
+      <article>
+        <img src="images/qac_logo.jpeg" alt="Automation Framework Project" class="project-img" />
+        <div>
+          <h3>Cucumber-Selenium Test Automation Framework</h3> 
+            <h4>QA Consultants (Mar 2023 - Apr 2023)</h4>
+            <p>Main purpose of the project is to test- loging in to a website and placing an order. This project 
+            was made using the complete BDD automation framework template for web functional testing using Java, 
+            Cucumber and Selenium. The template was based on the Page Object model, and it provided all the required 
+            pieces to start creating page classes and tests cases.</p>
+        </div>
+      </article>
+
+      <article>
+        <div>
+          <h3>Jiffy Real Estate Photography Website</h3>
+          <h4>IDRF (Aug 2025)</h4>
+          <p>A static website built using HTML and CSS that showcases a fictional Edmonton-based real estate
+            photography business. Features: Multi-page layout (index.html, services.html, login.html, booking.html),
+            Responsive and styled layout using external CSS, Functional login form with basic validation, Sample
+            photo gallery and services listed.</p>
+        </div>
+        <img src="images/jiffy_real_estate.jpeg" alt="Jiffy Real Estate Photography Website" class="project-img" />
+      </article>
+
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>📧 Email: asmafawzia@gmail.com</p>
+      <p>📞 Phone: (437) 261-1264</p>
+
+      <form id="contact-form" action="submit_form.php" method="POST">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="1" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Asma Kawser Maisha's Portfolio.</p>
+  </footer>
+</body>
+</html>
